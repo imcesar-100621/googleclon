@@ -1,0 +1,157 @@
+/* estilo.css */
+
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    min-height: 100vh; /* Establecer altura mínima del viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el header y la navegación */
+header {
+    background-color: none;
+    padding: 15px;
+    border-bottom: 1px none;
+    text-align: right;
+}
+
+.nav-right-section {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right-section li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-right-section li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-icon img, .photo-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Estilos para el logo principal */
+.main-logo {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.main-logo img {
+    width: 300px; /* Tamaño del logo de Google */
+}
+
+/* Estilos para el contenedor de búsqueda */
+.main-input {
+    text-align: center;
+    margin: 10px;
+}
+
+.main-input-container {
+    margin-top: 2px;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    border-radius: 24px;
+    padding: 10px 15px;
+    width: 600px; /* Ancho del contenedor de búsqueda */
+    max-width: 90%; /* Máximo ancho del contenedor de búsqueda */
+    margin: 0 auto; /* Centrar el contenedor de búsqueda */
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    background-image: url('https://www.gstatic.com/images/icons/material/system/1x/search_black_24dp.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1; /* Para que el input ocupe el espacio restante */
+    font-size: 16px;
+}
+
+.micro-icon {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9CUlwlNyzBntE_kaTK-w1H81sJwX-V419Jg&s');
+    background-size: cover;
+    width: 24px; /* Ajustamos el ancho al tamaño del nuevo ícono */
+    height: 24px; /* Ajustamos el alto al tamaño del nuevo ícono */
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Estilos para los botones de búsqueda */
+.main-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none; /* Quitamos el borde para un estilo más ovalado */
+    border-radius: 30px; /* Hacemos los bordes más ovalados */
+    background-color: #e0e0e0; /* Color de fondo ligeramente más gris */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.main-buttons button:hover {
+    background-color: #ccc; /* Color de fondo más claro al pasar el mouse */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #e0e0e0; /* Color de fondo más gris */
+    padding: 18px;
+    border-top: 1px solid #ccc; /* Borde superior más claro */
+    margin-top: auto; /* Para empujar el footer hacia abajo */
+    text-align: center; /* Alineación central para el footer completo */
+}
+
+.footer-left, .footer-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Alinear elementos en línea */
+}
+
+.footer-left {
+    float: left; /* Alinear a la izquierda */
+}
+
+.footer-right {
+    float: right; /* Alinear a la derecha */
+}
+
+.footer-left li, .footer-right li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.footer-left li a, .footer-right li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
