@@ -44,13 +44,14 @@ header {
 .menu-icon img, .photo-profile img {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 /* Estilos para el logo principal */
 .main-logo {
     text-align: center;
-    padding: 150px 0;
+    padding: 180px 80px 20px 80px;
+
 }
 
 .main-logo img {
